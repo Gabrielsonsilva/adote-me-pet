@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Sarala:wght@400;700 & display=swap');
+
+/*CSS da pagina inicial do projeto*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header{
+    background-color:#097a85 ;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffffff;
+    padding: 5px;
+}
+
+nav{
+    display: flex;
+    gap: 35px;
+    font-family:'Sarala', sans-serif ;
+}
+
+a.cabecalho-menu{
+    color: #ffffff;
+}
+
+img.logo{
+    height: 120px;
+}
+
+main {
+    background-image: url(Site.jpg);
+    background-position: center;
+    height: 96vh;
+    background-size: cover;
+    padding-left: 15px;
+    
+}
+
+div.conteudo{
+   padding-top: 100px;
+   padding-left: 15px;
+}
+
+h1.titulo-principal{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffffff;
+    width: 600px;
+    
+}
+
+p.conteudo-inicial{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    width: 600px;
+    text-align: justify;
+    padding-bottom: 20px;
+    
+}
+
+button {
+    background-color: #0fc6d6;
+    color: #ffffff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.363);
+    margin: 10px;
+}
+
+button:hover {
+    background-color: #11e5fa;
+}
+
+
