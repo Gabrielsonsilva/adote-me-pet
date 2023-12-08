@@ -34,10 +34,6 @@ img.logo{
     height: 120px;
 }
 
-.cor{
-    background-color: black;
-}
-
 main {
     background-image: url(banner.png);
     background-position: center;
@@ -48,7 +44,6 @@ main {
 div.conteudo{
    display: flex;
    flex-direction: column;
-   
    background-color: rgba(0, 0, 0, 0.212);
    padding-left: 15px;
    height: 90vh;
